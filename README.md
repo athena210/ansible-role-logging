@@ -20,10 +20,10 @@ git clone 'https://github.com/athena210/ansible-role-logging.git' logging
 ```yaml
 ---
 roles:
-  - src: https://github.com/athena210/ansible-role-logging.git
-    name: logging
+  - name: logging
+    src: https://github.com/athena210/ansible-role-logging.git
     scm: git
-    version: master
+    version: main
 ```
 
 Запуск установки
