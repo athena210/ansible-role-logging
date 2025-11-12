@@ -50,9 +50,9 @@
     - name: Storage
       value: volatile
     - name: RuntimeMaxUse
-      value: 16M
+      value: 4M
     - name: RuntimeMaxFileSize
-      value: 2M
+      value: 1M
 
 - name: Upload configs
   ansible.builtin.copy:
