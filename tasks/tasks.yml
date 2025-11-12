@@ -50,7 +50,7 @@
     - name: Storage
       value: volatile
     - name: RuntimeMaxUse
-      value: 4M
+      value: 8M
     - name: RuntimeMaxFileSize
       value: 1M
 
